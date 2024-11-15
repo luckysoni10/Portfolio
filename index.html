@@ -39,7 +39,8 @@
                         <a class="nav-link text-light" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#resume">Resume</a>
+                        <a class="nav-link" href="Images/LuckySoni_Resume.pdf" target="_blank"
+                            rel="noopener noreferrer">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -110,7 +111,7 @@
             <h1 class="text-center">Projects</h1>
             <div class="row">
 
-                
+
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                         <img class="card-img-top" src="Images/spotify.png" alt="Card image" style="width:100%">
@@ -118,13 +119,13 @@
                             <h4 class="card-title">Spotify Clone</h4>
                             <p class="card-text">Built a frontend clone of Spotify using HTML, CSS, and Bootstrap, with
                                 a focus on responsive design and UI consisten</p>
-                                <div class="text-center">
-                                    <a href="https://luckysoni10.github.io/Spotify-Clone/" class="btn btn-success">Link</a>
+                            <div class="text-center">
+                                <a href="https://luckysoni10.github.io/Spotify-Clone/" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mt-4">
                     <div class="card">
                         <img class="card-img-top" src="Images/ecommerce.png" alt="Card image" style="width:100%">
@@ -133,12 +134,13 @@
                             <p class="card-text">Developed a responsive eCommerce website with HTML, CSS, and Bootstrap,
                                 featuring custom UI elements.</p>
                             <div class="text-center">
-                                <a href="https://luckysoni10.github.io/E-Commerce-Website/" class="btn btn-success">Link</a>
+                                <a href="https://luckysoni10.github.io/E-Commerce-Website/"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                         <img class="card-img-top" src="Images/amazon.png" alt="Card image" style="width:100%">
@@ -181,19 +183,22 @@
 
                 <div class="col-lg-6">
                     <!-- form fields -->
-                    <form>
+                    <form action="https://formspree.io/f/mjkvrdwl" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+                            <input type="text" class="form-control form-control-lg" name="name" placeholder="Your Name"
+                                required>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+                            <input type="email" class="form-control form-control-lg" name="email"
+                                placeholder="Your Email" required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control form-control-lg" rows="4"
-                                placeholder="Your Message"></textarea>
+                            <textarea class="form-control form-control-lg" name="message" rows="4"
+                                placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary mt-3 contact-button">Send Message</button>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -217,7 +222,7 @@
             <div class="copyright text-center mt-3">
                 &copy; 2024 Lucky Soni. All Rights Reserved.
             </div>
-            
+
         </div>
     </footer>
 
