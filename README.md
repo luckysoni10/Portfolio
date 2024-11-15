@@ -46,7 +46,7 @@ You can view the live version of my portfolio and all my projects using the foll
 
 ## Contact
 Feel free to reach out to me for any inquiries, feedback, or collaboration opportunities:
-- Email: [your-email@example.com](mailto:sonilucky0005@gmail.com)
+- Email: [sonilucky0005@gmail.com](mailto:sonilucky0005@gmail.com)
 - LinkedIn: [Lucky Soni](https://www.linkedin.com/in/luckysoni10/)
 - GitHub: [LuckySoni10](https://github.com/luckysoni10)
 
